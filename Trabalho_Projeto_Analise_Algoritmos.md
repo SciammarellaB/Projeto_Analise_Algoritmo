@@ -1,11 +1,3 @@
-# Projeto e Analise de Algoritmos
-
-## Visao geral
-
-Este trabalho apresenta a implementacao em C das questoes propostas. Os codigos foram deixados de forma simples, com valores fixos no proprio `main`, para que possam ser abertos, compilados e executados diretamente no Dev-C++.
-
-Nao e necessario informar dados pelo teclado. Ao executar cada arquivo, o programa ja roda exemplos suficientes para demonstrar o funcionamento dos algoritmos.
-
 ## Repositorio de apoio
 
 Os codigos e as respostas tambem foram organizados no repositorio abaixo, para consulta e validacao do desenvolvimento:
