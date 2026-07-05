@@ -1,0 +1,18 @@
+# Executaveis gerados localmente
+Questao1
+Questao3
+*.exe
+*.out
+
+# Arquivos de debug/build
+*.o
+*.obj
+*.dSYM/
+
+# Configuracoes locais de editor/IDE
+.vscode/
+.idea/
+
+# Arquivos temporarios do sistema
+.DS_Store
+Thumbs.db
