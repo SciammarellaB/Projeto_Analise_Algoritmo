@@ -121,6 +121,10 @@ Programacao dinamica: 0.007329 segundos
 Controle: 500000
 ```
 
+![Execucao da Questao 1](imagens/questao1_execucao.png)
+
+Figura 1 - Execucao do codigo `Questao1.c`, mostrando os dois casos de teste, a comparacao entre algoritmo guloso e programacao dinamica, e a diferenca no tempo de execucao.
+
 ### Codigo da Q1
 
 ```c
@@ -432,6 +436,10 @@ CHECK bot enviado               -> BLOQUEADA
 COUNT pro                       -> 1
 COUNT g                         -> 1
 ```
+
+![Execucao da Questao 3](imagens/questao3_execucao.png)
+
+Figura 2 - Execucao do codigo `Questao3.c`, mostrando as palavras proibidas iniciais, as verificacoes com `CHECK`, a inclusao de uma nova palavra com `ADD` e as consultas de prefixo com `COUNT`.
 
 ### Codigo da Q3
 
