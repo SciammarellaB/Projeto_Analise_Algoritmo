@@ -1,9 +1,3 @@
-## Repositorio de apoio
-
-Os codigos e as respostas tambem foram organizados no repositorio abaixo, para consulta e validacao do desenvolvimento:
-
-<https://github.com/SciammarellaB/Projeto_Analise_Algoritmo>
-
 ## Q1 - Problema do Troco
 
 O Problema do Troco consiste em formar um determinado valor usando a menor quantidade possivel de moedas.
@@ -591,3 +585,5 @@ int main(void) {
     return 0;
 }
 ```
+
+https://github.com/SciammarellaB/Projeto_Analise_Algoritmo
