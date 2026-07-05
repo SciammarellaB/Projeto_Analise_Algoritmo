@@ -1,3 +1,26 @@
+<!-- CAPA -->
+<div align="center">
+
+**UNIVERSIDADE VEIGA DE ALMEIDA - UVA**
+
+<br><br><br><br><br><br><br><br>
+
+**Projeto e Análise de Algoritmos**
+
+<br><br><br><br>
+
+Brenno de Carvalho Prado Frangella Sciammarella
+
+<br><br><br><br><br><br><br><br>
+
+**Rio de Janeiro**  
+**2026.1**
+
+</div>
+
+<div style="page-break-after: always;"></div>
+<!-- /CAPA -->
+
 ## Q1 - Problema do Troco
 
 O Problema do Troco consiste em formar um determinado valor usando a menor quantidade possivel de moedas.
