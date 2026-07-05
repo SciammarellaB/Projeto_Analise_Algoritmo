@@ -73,53 +73,7 @@ No primeiro caso do codigo, usando moedas comuns, os dois algoritmos encontram a
 
 Tambem foi incluida uma medicao simples de tempo usando `clock()`. Cada algoritmo e executado varias vezes para que a diferenca fique visivel. Os valores em segundos podem mudar conforme o computador usado, mas a tendencia esperada e que o algoritmo guloso seja mais rapido, enquanto a programacao dinamica faca mais trabalho para garantir a resposta otima.
 
-### Exemplo de saida da Q1
-
-```text
-========================================
-Caso 1 - Moedas comuns
-Valor do troco: 289
-Moedas disponiveis: 100 50 25 10 5 1 
-
-Algoritmo guloso
-Possivel: sim
-Total de moedas: 9
-Composicao: 2 moeda(s) de 100  1 moeda(s) de 50  1 moeda(s) de 25  1 moeda(s) de 10  4 moeda(s) de 1  
-Operacoes estimadas: 6
-
-Programacao dinamica
-Possivel: sim
-Total de moedas: 9
-Composicao: 2 moeda(s) de 100  1 moeda(s) de 50  1 moeda(s) de 25  1 moeda(s) de 10  4 moeda(s) de 1  
-Operacoes estimadas: 1734
-
-Tempo de execucao em 100000 repeticoes:
-Guloso: 0.002594 segundos
-Programacao dinamica: 0.405523 segundos
-Controle: 1800000
-
-========================================
-Caso 2 - Exemplo em que o guloso nao e otimo
-Valor do troco: 6
-Moedas disponiveis: 4 3 1 
-
-Algoritmo guloso
-Possivel: sim
-Total de moedas: 3
-Composicao: 1 moeda(s) de 4  2 moeda(s) de 1  
-Operacoes estimadas: 3
-
-Programacao dinamica
-Possivel: sim
-Total de moedas: 2
-Composicao: 2 moeda(s) de 3  
-Operacoes estimadas: 18
-
-Tempo de execucao em 100000 repeticoes:
-Guloso: 0.001349 segundos
-Programacao dinamica: 0.007329 segundos
-Controle: 500000
-```
+### Execução da Q1
 
 ![Execucao da Questao 1](imagens/questao1_execucao.png)
 
@@ -421,21 +375,7 @@ Complexidade:
 - `COUNT`: `O(P)`, em que `P` e o tamanho do prefixo.
 - Espaco: `O(S)`, em que `S` e a soma dos tamanhos das palavras armazenadas.
 
-### Exemplo de saida da Q3
-
-```text
-Palavras proibidas iniciais: spam, golpe, promo
-
-CHECK spam hoje                 -> BLOQUEADA
-CHECK mensagem normal           -> PERMITIDA
-CHECK promocao gratis           -> BLOQUEADA
-
-Adicionando nova palavra proibida: bot
-
-CHECK bot enviado               -> BLOQUEADA
-COUNT pro                       -> 1
-COUNT g                         -> 1
-```
+### Execução da Q3
 
 ![Execucao da Questao 3](imagens/questao3_execucao.png)
 
